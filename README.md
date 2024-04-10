@@ -1,54 +1,39 @@
-# Backend Developer Challenge
-This challenge is designed to test your skills in Python, designing REST APIs, JSON manipulation, and basic problem-solving abilities.
+# Backend Development Hackathon Challenges
 
-In this challenge, you'll be tasked to implement a lightweight transaction management system with a set of REST APIs using Flask and Python. The focus is on developing clean, efficient code and meaningful commit messages.
+Welcome to our intense 4-hour backend development hackathon! This hackathon consists of a series of challenges designed to test your abilities in backend development across various scenarios. Below, you will find a brief overview of each challenge and the criteria that will be used to evaluate your solutions.
 
-Class Definition
-A transaction has the following structure:
+## Hackathon Overview
 
-```
-{
-  "description": "String. A brief description of the transaction",
-  "amount": "Float. The monetary amount of the transaction. ",
-  "date": "String. The date of the transaction in 'YYYY-MM-DD' format"
-}
-```
+### Challenge 1: REST API for Transaction Data
+**Objective:** Implement CRUD operations for transaction data via RESTful endpoints using Python, managing persistence in a `transactions.json` file.
 
-You will be implementing CRUD operations for transactions. A template code is provided to you with a GET operation already implemented.
+### Challenge 2: Frequency Analysis
+**Objective:** Develop a Python script to find the integer with the third highest frequency in a given list of integers.
 
-Provided Files
-This repository contains:
+### Challenge 3: Web Scraping Google Search Results
+**Objective:** Extract and save the top 10 results of a predefined Google search query to a JSON file using a web scraping script.
 
-main.py: This is the main driver code that runs the Flask application.
-transactions.py: Contains the placeholder routes for transactions' CRUD operations.
-transactions.json: A JSON file containing transactions data. You need to update this file as you implement the POST, PUT and DELETE operations.
-Tasks
-Complete the transactions REST API by implementing the following methods in transactions.py:
+### Challenge 4: PDF Data Extraction
+**Objective:** Write a script to extract text and tabular data from a PDF file and save this information in a structured JSON format.
 
-POST /api/transaction: Adds a new transaction to the transaction list.
-PUT /api/transaction/<id>: Updates an existing transaction with the given id.
-DELETE /api/transaction/<id>: Deletes an existing transaction with the given id.
-Update transactions.json whenever a POST, PUT or DELETE method is called.
+## General Setup
+- Ensure you have Python 3.x installed.
+- Clone this repository at the start of the hackathon.
+- Navigate to the individual challenge directories to access specific tasks.
 
-Running Code
-To start the Flask server, run the following command:
+## Time Frame
+- The hackathon will last exactly four hours.
+- Time management between tasks is crucial to ensure you complete as much as possible.
 
-```$ python main.py```
+## Evaluation Criteria
+Your submissions will be evaluated based on the following criteria across all challenges:
 
-Then, you can use a HTTP client (like Postman, curl, etc.) to test your APIs at http://localhost:5000.
+- **Functionality**: Does the solution meet the goals set out in the challenge?
+- **Code Quality**: Is the code clean, organized, well-commented, and adhering to standard coding practices?
+- **Error Handling**: Are there robust mechanisms in place to handle errors and exceptions?
+- **Efficiency**: Are the solutions optimized for both performance and resource usage under constraints?
 
-Submission Instructions
-1. Fork this repository.
-2. Complete tasks.
-3. Push your changes to your fork.
-4. Submit your fork's link along with a brief summary of what you have done.
-Please make sure to write meaningful comments and commit messages throughout your coding process.
+## Submission Instructions
+Upon completion, push your code updates to your fork of this repository. Include all essential files and scripts within each respective challenge directory. Submit the link to your forked repository with a summary of your achievements in each challenge.
 
-Evaluation Criteria
-Your submission will be evaluated based on the following criteria:
-
-1. Code structure and style: Your code should be well-structured and easy to follow.
-2. Completeness: All tasks should be completed.
-3. Correctness: Your code should correctly implement the given tasks.
-
-Good luck!# challenge_backend
+Good luck, and we look forward to seeing your innovative solutions to these backend challenges!
