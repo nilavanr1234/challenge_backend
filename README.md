@@ -1,6 +1,6 @@
 # Backend Development Hackathon Challenges
 
-Welcome to our intense 4-hour backend development hackathon! This hackathon consists of a series of challenges designed to test your abilities in backend development across various scenarios. Below, you will find a brief overview of each challenge and the criteria that will be used to evaluate your solutions.
+Welcome to our intense 4-hour backend development hackathon! This hackathon consists of a series of challenges designed to test your abilities in backend development across various scenarios. Below, you will find a brief overview of each challenge and the criteria that will be used to evaluate your solutions. You may use chatgpt or equivalents to speed up your development.
 
 ## Hackathon Overview
 
