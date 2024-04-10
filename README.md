@@ -22,7 +22,7 @@ Welcome to our intense 4-hour backend development hackathon! This hackathon cons
 - Navigate to the individual challenge directories to access specific tasks.
 
 ## Time Frame
-- The hackathon will last exactly four hours.
+- The hackathon will last exactly three hours.
 - Time management between tasks is crucial to ensure you complete as much as possible.
 
 ## Evaluation Criteria
